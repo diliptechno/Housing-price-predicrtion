@@ -1,8 +1,10 @@
 # Housing-price-prediction
 
 Team members: 
+
 Dilip Molugu
-Nikhil Reddy PAthuri
+
+Nikhil Reddy Pathuri
 
 Whenever a home buyer decides to buy a new house the first thing they check for is the prices of the house. The buyers don't have much knowledge about the prices of the house, but they always look for the best prices. They don't have enough time to search for the right house with the right price, due to which they end up spending too much on the house than the actual market price. 
 
