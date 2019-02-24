@@ -19,9 +19,9 @@ A detailed explanation of the predictors can be found in the text file named :de
 We removed columns 'FireplaceQu' and 'LotFrontage' as they had a large number of missing values. Removing these columns also improved our test set predictions. We were then left with 32 columns with missing values.
 
 
-Models Used- 
+# Models Used- 
 
-Linear- 
+# Linear- 
 
 • Multiple Linear Regression with all predictors
 • Multiple Linear Regression with filtered predictors and 10 fold CV
@@ -34,14 +34,14 @@ Linear-
 models have similar RMSE for train and test predictions.
 
 
-Non Linear Models:
+# Non Linear Models:
 
 • MARS using 10 fold CV and degree=1:2, .nprune=2:38
 • SVM using 10 fold CV and tuneLength=20
 • Neural Network with filtered predictors, decay 0.1, size=5
 • K-NN with filtered predictors, 10 fold CV and tune length of 10. Optimum k =7
 
-Tree Models:
+# Tree Models:
 
 • Bagged tree
 • Random Forest with ntree=500
@@ -49,10 +49,11 @@ Tree Models:
  shrinkage=0.1
 • CART using 10 fold CV and tuneLength = 20
 
+# Instructions to run the Model
 
 • Step 1 : To open the ‘House_Prices_Group_3.RMD’ file.
 • Step 2 : Replace the file path of the training and test sets (train and test set attached
-in the folder given. It can also be downloaded from : https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data)atline no 33&34
+in the folder given. It can also be downloaded from : https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data)
 • Step 3 : All chunks can be run until line no 1000(Data cleaning). From 1000 onwards is the application of Linear Models
 • Step 4 : Each of the chuck can be run to see the respective model results
 • Step 5 : From line no 1196 are the Tree Models. All the tree models are contained in one chunk
